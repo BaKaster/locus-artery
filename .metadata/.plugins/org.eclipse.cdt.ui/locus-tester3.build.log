@@ -1,0 +1,11 @@
+17:20:25 **** Incremental Build of configuration Debug for project locus-tester3 ****
+make all 
+Invoking: GNU Arm Cross Print Size
+arm-none-eabi-size --format=berkeley "locus-tester3.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4744	     52	   1572	   6368	   18e0	locus-tester3.elf
+Finished building: locus-tester3.siz
+ 
+
+17:20:26 Build Finished. 0 errors, 0 warnings. (took 166ms)
+
