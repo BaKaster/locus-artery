@@ -8,6 +8,8 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include user/hardware/spi/subdir.mk
+-include user/hardware/lcd/subdir.mk
 -include user/subdir.mk
 -include firmware/subdir.mk
 -include cmsis/subdir.mk

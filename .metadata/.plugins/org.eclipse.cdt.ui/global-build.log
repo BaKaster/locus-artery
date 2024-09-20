@@ -182,3 +182,425 @@ arm-none-eabi-size --format=berkeley "locus-tester3.elf"
    4744	     52	   1572	   6368	   18e0	locus-tester3.elf
 Finished building: locus-tester3.siz
  
+17:34:35 **** Incremental Build of configuration Debug for project locus-tester3 ****
+make all 
+Building file: ../user/hardware/spi/at32_video_ev_spi.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/hardware/spi/at32_video_ev_spi.d" -MT"user/hardware/spi/at32_video_ev_spi.o" -c -o "user/hardware/spi/at32_video_ev_spi.o" "../user/hardware/spi/at32_video_ev_spi.c"
+../user/hardware/spi/at32_video_ev_spi.c:1:10: fatal error: at32_video_ev_spi.h: No such file or directory
+    1 | #include "at32_video_ev_spi.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [user/hardware/spi/subdir.mk:20: user/hardware/spi/at32_video_ev_spi.o] Ошибка 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:35:10 **** Incremental Build of configuration Debug for project locus-tester3 ****
+make all 
+Building file: ../user/hardware/spi/at32_video_ev_spi.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/hardware/spi/at32_video_ev_spi.d" -MT"user/hardware/spi/at32_video_ev_spi.o" -c -o "user/hardware/spi/at32_video_ev_spi.o" "../user/hardware/spi/at32_video_ev_spi.c"
+../user/hardware/spi/at32_video_ev_spi.c:1:10: fatal error: at32_video_ev_spi.h: No such file or directory
+    1 | #include "at32_video_ev_spi.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [user/hardware/spi/subdir.mk:20: user/hardware/spi/at32_video_ev_spi.o] Ошибка 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:35:22 **** Incremental Build of configuration Debug for project locus-tester3 ****
+make all 
+Building file: ../user/hardware/spi/at32_video_ev_spi.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/hardware/spi/at32_video_ev_spi.d" -MT"user/hardware/spi/at32_video_ev_spi.o" -c -o "user/hardware/spi/at32_video_ev_spi.o" "../user/hardware/spi/at32_video_ev_spi.c"
+Finished building: ../user/hardware/spi/at32_video_ev_spi.c
+ 
+Building file: ../user/hardware/lcd/at32_video_ev_font.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/hardware/lcd/at32_video_ev_font.d" -MT"user/hardware/lcd/at32_video_ev_font.o" -c -o "user/hardware/lcd/at32_video_ev_font.o" "../user/hardware/lcd/at32_video_ev_font.c"
+Finished building: ../user/hardware/lcd/at32_video_ev_font.c
+ 
+Building file: ../user/hardware/lcd/at32_video_ev_lcd.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/hardware/lcd/at32_video_ev_lcd.d" -MT"user/hardware/lcd/at32_video_ev_lcd.o" -c -o "user/hardware/lcd/at32_video_ev_lcd.o" "../user/hardware/lcd/at32_video_ev_lcd.c"
+Finished building: ../user/hardware/lcd/at32_video_ev_lcd.c
+ 
+Building file: ../user/main.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/main.d" -MT"user/main.o" -c -o "user/main.o" "../user/main.c"
+Finished building: ../user/main.c
+ 
+Building target: locus-tester3.elf
+Invoking: GNU Arm Cross C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -T "/home/user/Документы/AT32-projects/locus-tester3/ldscripts/AT32F403AxG_FLASH.ld" -Xlinker --gc-sections -Wl,-Map,"locus-tester3.map" --specs=nano.specs --specs=nosys.specs -o "locus-tester3.elf" ./user/hardware/spi/at32_video_ev_spi.o  ./user/hardware/lcd/at32_video_ev_font.o ./user/hardware/lcd/at32_video_ev_lcd.o  ./user/at32f403a_407_clock.o ./user/at32f403a_407_int.o ./user/main.o  ./firmware/at32f403a_407_acc.o ./firmware/at32f403a_407_adc.o ./firmware/at32f403a_407_bpr.o ./firmware/at32f403a_407_can.o ./firmware/at32f403a_407_crc.o ./firmware/at32f403a_407_crm.o ./firmware/at32f403a_407_dac.o ./firmware/at32f403a_407_debug.o ./firmware/at32f403a_407_dma.o ./firmware/at32f403a_407_emac.o ./firmware/at32f403a_407_exint.o ./firmware/at32f403a_407_flash.o ./firmware/at32f403a_407_gpio.o ./firmware/at32f403a_407_i2c.o ./firmware/at32f403a_407_misc.o ./firmware/at32f403a_407_pwc.o ./firmware/at32f403a_407_rtc.o ./firmware/at32f403a_407_sdio.o ./firmware/at32f403a_407_spi.o ./firmware/at32f403a_407_tmr.o ./firmware/at32f403a_407_usart.o ./firmware/at32f403a_407_usb.o ./firmware/at32f403a_407_wdt.o ./firmware/at32f403a_407_wwdt.o ./firmware/at32f403a_407_xmc.o  ./cmsis/startup_at32f403a_407.o ./cmsis/system_at32f403a_407.o  ./bsp/at32f403a_407_board.o   
+Finished building target: locus-tester3.elf
+ 
+Invoking: GNU Arm Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "locus-tester3.elf"  "locus-tester3.hex"
+Finished building: locus-tester3.hex
+ 
+Invoking: GNU Arm Cross Print Size
+arm-none-eabi-size --format=berkeley "locus-tester3.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4744	     52	   1572	   6368	   18e0	locus-tester3.elf
+Finished building: locus-tester3.siz
+ 
+18:05:58 **** Incremental Build of configuration Debug for project locus-tester3 ****
+make all 
+Building file: ../user/hardware/spi/at32_video_ev_spi.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/hardware/spi/at32_video_ev_spi.d" -MT"user/hardware/spi/at32_video_ev_spi.o" -c -o "user/hardware/spi/at32_video_ev_spi.o" "../user/hardware/spi/at32_video_ev_spi.c"
+Finished building: ../user/hardware/spi/at32_video_ev_spi.c
+ 
+Building file: ../user/hardware/lcd/at32_video_ev_font.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/hardware/lcd/at32_video_ev_font.d" -MT"user/hardware/lcd/at32_video_ev_font.o" -c -o "user/hardware/lcd/at32_video_ev_font.o" "../user/hardware/lcd/at32_video_ev_font.c"
+Finished building: ../user/hardware/lcd/at32_video_ev_font.c
+ 
+Building file: ../user/hardware/lcd/at32_video_ev_lcd.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/hardware/lcd/at32_video_ev_lcd.d" -MT"user/hardware/lcd/at32_video_ev_lcd.o" -c -o "user/hardware/lcd/at32_video_ev_lcd.o" "../user/hardware/lcd/at32_video_ev_lcd.c"
+Finished building: ../user/hardware/lcd/at32_video_ev_lcd.c
+ 
+Building file: ../user/at32f403a_407_clock.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/at32f403a_407_clock.d" -MT"user/at32f403a_407_clock.o" -c -o "user/at32f403a_407_clock.o" "../user/at32f403a_407_clock.c"
+Finished building: ../user/at32f403a_407_clock.c
+ 
+Building file: ../user/at32f403a_407_config.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/at32f403a_407_config.d" -MT"user/at32f403a_407_config.o" -c -o "user/at32f403a_407_config.o" "../user/at32f403a_407_config.c"
+Finished building: ../user/at32f403a_407_config.c
+ 
+Building file: ../user/at32f403a_407_int.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/at32f403a_407_int.d" -MT"user/at32f403a_407_int.o" -c -o "user/at32f403a_407_int.o" "../user/at32f403a_407_int.c"
+Finished building: ../user/at32f403a_407_int.c
+ 
+Building file: ../user/eeprom.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/eeprom.d" -MT"user/eeprom.o" -c -o "user/eeprom.o" "../user/eeprom.c"
+Finished building: ../user/eeprom.c
+ 
+Building file: ../user/encoder_navigation.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/encoder_navigation.d" -MT"user/encoder_navigation.o" -c -o "user/encoder_navigation.o" "../user/encoder_navigation.c"
+../user/encoder_navigation.c: In function 'encoder_handler':
+../user/encoder_navigation.c:36:13: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+   36 |         if (abs(encoder_delta) >= scroll_threshold) {
+      |             ^~~
+../user/encoder_navigation.c:36:17: warning: 'abs' argument 1 promotes to 'int32_t' {aka 'long int'} where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+   36 |         if (abs(encoder_delta) >= scroll_threshold) {
+      |                 ^~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+../user/encoder_navigation.c: In function 'button_handlers':
+../user/encoder_navigation.c:107:28: warning: comparison of distinct pointer types lacks a cast
+  107 |       if ((selected.action != Back_func || current_menu != MainMenu))
+      |                            ^~
+Finished building: ../user/encoder_navigation.c
+ 
+Building file: ../user/images.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/images.d" -MT"user/images.o" -c -o "user/images.o" "../user/images.c"
+Finished building: ../user/images.c
+ 
+Building file: ../user/main.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/main.d" -MT"user/main.o" -c -o "user/main.o" "../user/main.c"
+../user/main.c: In function 'main':
+../user/main.c:117:3: warning: implicit declaration of function 'init_millis'; did you mean 'get_millis'? [-Wimplicit-function-declaration]
+  117 |   init_millis();
+      |   ^~~~~~~~~~~
+      |   get_millis
+../user/main.c:123:6: warning: implicit declaration of function 'apply_changes' [-Wimplicit-function-declaration]
+  123 |      apply_changes();
+      |      ^~~~~~~~~~~~~
+../user/main.c:133:5: warning: implicit declaration of function 'handleButton' [-Wimplicit-function-declaration]
+  133 |     handleButton();
+      |     ^~~~~~~~~~~~
+../user/main.c: At top level:
+../user/main.c:139:6: warning: conflicting types for 'handleButton'
+  139 | void handleButton() {
+      |      ^~~~~~~~~~~~
+../user/main.c:133:5: note: previous implicit declaration of 'handleButton' was here
+  133 |     handleButton();
+      |     ^~~~~~~~~~~~
+Finished building: ../user/main.c
+ 
+Building file: ../user/menu_functions.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/menu_functions.d" -MT"user/menu_functions.o" -c -o "user/menu_functions.o" "../user/menu_functions.c"
+../user/menu_functions.c: In function 'apply_changes':
+../user/menu_functions.c:23:3: warning: implicit declaration of function 'flash_ee_data_read' [-Wimplicit-function-declaration]
+   23 |   flash_ee_data_read(0, &eeprom);
+      |   ^~~~~~~~~~~~~~~~~~
+../user/menu_functions.c: In function 'display_up_time':
+../user/menu_functions.c:45:5: warning: implicit declaration of function 'swprintf'; did you mean 'snprintf'? [-Wimplicit-function-declaration]
+   45 |     swprintf(up_time_str,20, L"%02lu:%02lu:%02lu", hours, minutes, seconds);
+      |     ^~~~~~~~
+      |     snprintf
+../user/menu_functions.c: In function 'Geoscan_logotype':
+../user/menu_functions.c:77:2: warning: implicit declaration of function 'display_status_bar'; did you mean 'display_scroll_bar'? [-Wimplicit-function-declaration]
+   77 |  display_status_bar();
+      |  ^~~~~~~~~~~~~~~~~~
+      |  display_scroll_bar
+../user/menu_functions.c: In function 'input_number_handler':
+../user/menu_functions.c:272:17: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+  272 |             if (fabs(accumulated_delta) >= SCROLL_THRESHOLD) {
+      |                 ^~~~
+../user/menu_functions.c:272:17: warning: incompatible implicit declaration of built-in function 'fabs'
+../user/menu_functions.c:4:1: note: include '<math.h>' or provide a declaration of 'fabs'
+    3 | #include "at32f403a_407_int.h"
+  +++ |+#include <math.h>
+    4 | #include "stdio.h"
+../user/menu_functions.c:277:34: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+  277 |                 selected_digit = abs(encoder_position) % TOTAL_OPTIONS; // Обновление выбранного числа
+      |                                  ^~~
+../user/menu_functions.c:277:38: warning: 'abs' argument 1 promotes to 'int32_t' {aka 'long int'} where 'int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  277 |                 selected_digit = abs(encoder_position) % TOTAL_OPTIONS; // Обновление выбранного числа
+      |                                      ^~~~~~~~~~~~~~~~
+<built-in>: note: built-in 'abs' declared here
+../user/menu_functions.c:313:20: warning: implicit declaration of function 'wcstol' [-Wimplicit-function-declaration]
+  313 |   entered_number = wcstol(input_number, NULL, 10);
+      |                    ^~~~~~
+../user/menu_functions.c:314:3: warning: implicit declaration of function 'flash_ee_data_write'; did you mean 'sdio_data_write'? [-Wimplicit-function-declaration]
+  314 |   flash_ee_data_write(2, entered_number);
+      |   ^~~~~~~~~~~~~~~~~~~
+      |   sdio_data_write
+../user/menu_functions.c: In function 'Information':
+../user/menu_functions.c:350:85: warning: initialization of 'unsigned int' from 'unsigned int *' makes integer from pointer without a cast [-Wint-conversion]
+  350 |         {.info_name = L"Имя:", .data_type = DATA_TYPE_WCHART, .data.wchart_val = L"ST7735S (128x160)"},
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~
+../user/menu_functions.c:350:85: note: (near initialization for 'info_items[0].data.wchart_val')
+../user/menu_functions.c:351:107: warning: initialization of 'unsigned int' from 'wchar_t *' {aka 'unsigned int *'} makes integer from pointer without a cast [-Wint-conversion]
+  351 |         {.info_name = L"Время с запуска:", .data_type = DATA_TYPE_WCHART, .data.wchart_val = up_time_str},
+      |                                                                                              ^~~~~~~~~~~
+../user/menu_functions.c:351:107: note: (near initialization for 'info_items[1].data.wchart_val')
+../user/menu_functions.c:356:87: warning: initialization of 'unsigned int' from 'unsigned int *' makes integer from pointer without a cast [-Wint-conversion]
+  356 |   {.info_name = L"Военмех?", .data_type = DATA_TYPE_WCHART, .data.wchart_val = L"Лучше всех!"},
+      |                                                                                ^~~~~~~~~~~~~~
+../user/menu_functions.c:356:87: note: (near initialization for 'info_items[5].data.wchart_val')
+../user/menu_functions.c:388:104: warning: passing argument 6 of 'lcd_show_string' makes pointer from integer without a cast [-Wint-conversion]
+  388 |                     lcd_show_string(x_pos + 5, y_pos + 17, 120, 100, &Montserrat_12, info_items[i].data.wchart_val, WHITE);
+      |                                                                                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+      |                                                                                                        |
+      |                                                                                                        wchar_t {aka unsigned int}
+In file included from ../include/images.h:4,
+                 from ../include/ssd1306_menu.h:7,
+                 from ../include/menu_functions.h:6,
+                 from ../user/menu_functions.c:1:
+../include/at32_video_ev_lcd.h:107:108: note: expected 'wchar_t *' {aka 'unsigned int *'} but argument is of type 'wchar_t' {aka 'unsigned int'}
+  107 | void lcd_show_string(uint16_t x, uint16_t y, uint16_t width, uint16_t height, const font_t *font, wchar_t *p, const uint16_t base_color);
+      |                                                                                                   ~~~~~~~~~^
+../user/menu_functions.c:395:21: warning: implicit declaration of function 'wcscpy' [-Wimplicit-function-declaration]
+  395 |                     wcscpy(inversion_str, info_items[i].data.bool_val ? L"Включено" : L"Выключено");
+      |                     ^~~~~~
+Finished building: ../user/menu_functions.c
+ 
+Building file: ../user/ssd1306_menu.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"user/ssd1306_menu.d" -MT"user/ssd1306_menu.o" -c -o "user/ssd1306_menu.o" "../user/ssd1306_menu.c"
+../user/ssd1306_menu.c: In function 'display_status_bar':
+../user/ssd1306_menu.c:34:3: warning: implicit declaration of function 'lcd_draw_filled_rectangle'; did you mean 'lcd_draw_rectangle'? [-Wimplicit-function-declaration]
+   34 |   lcd_draw_filled_rectangle(0, 0, 128, 21, STATUS_BAR);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |   lcd_draw_rectangle
+../user/ssd1306_menu.c:51:54: warning: passing argument 6 of 'lcd_show_string' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   51 |     lcd_show_string(10, 5, 120, 100, &Montserrat_12, text, WHITE);
+      |                                                      ^~~~
+In file included from ../include/images.h:4,
+                 from ../include/ssd1306_menu.h:7,
+                 from ../user/ssd1306_menu.c:1:
+../include/at32_video_ev_lcd.h:107:108: note: expected 'wchar_t *' {aka 'unsigned int *'} but argument is of type 'const wchar_t *' {aka 'const unsigned int *'}
+  107 | void lcd_show_string(uint16_t x, uint16_t y, uint16_t width, uint16_t height, const font_t *font, wchar_t *p, const uint16_t base_color);
+      |                                                                                                   ~~~~~~~~~^
+../user/ssd1306_menu.c: In function 'display_menu_item':
+../user/ssd1306_menu.c:118:5: warning: implicit declaration of function 'lcd_fill_circle'; did you mean 'lcd_draw_circle'? [-Wimplicit-function-declaration]
+  118 |     lcd_fill_circle(slider_x + (item->data.switch_data->state ? 26 : 9), slider_y + 9, 7, SWITCH_CIRCLE);
+      |     ^~~~~~~~~~~~~~~
+      |     lcd_draw_circle
+../user/ssd1306_menu.c: In function 'menu_init':
+../user/ssd1306_menu.c:202:64: warning: initialization of 'void (*)(uint8_t)' {aka 'void (*)(unsigned char)'} from incompatible pointer type 'void (*)(void)' [-Wincompatible-pointer-types]
+  202 |  SettingsMenu[0] = (MenuItem){MENU_TYPE_ACTION, L"Назад", Back_func, NULL, MainMenu, 3, &Back, 2, NULL};
+      |                                                           ^~~~~~~~~
+../user/ssd1306_menu.c:202:64: note: (near initialization for '(anonymous).action')
+../user/ssd1306_menu.c:206:63: warning: initialization of 'void (*)(uint8_t)' {aka 'void (*)(unsigned char)'} from incompatible pointer type 'void (*)(void)' [-Wincompatible-pointer-types]
+  206 |  DisplayMenu[0] = (MenuItem){MENU_TYPE_ACTION, L"Назад", Back_func, NULL, SettingsMenu, 4, &Back, 2, NULL};
+      |                                                          ^~~~~~~~~
+../user/ssd1306_menu.c:206:63: note: (near initialization for '(anonymous).action')
+../user/ssd1306_menu.c:208:119: warning: initialization of 'SliderData *' from incompatible pointer type 'SwitchData *' [-Wincompatible-pointer-types]
+  208 |  DisplayMenu[2] = (MenuItem){MENU_TYPE_SWITCH, L"Инверсия:", color_inversion, NULL, SettingsMenu, 4, NULL, 2, &inversion_state};
+      |                                                                                                               ^
+../user/ssd1306_menu.c:208:119: note: (near initialization for '(anonymous).data.slider_data')
+../user/ssd1306_menu.c:211:66: warning: initialization of 'void (*)(uint8_t)' {aka 'void (*)(unsigned char)'} from incompatible pointer type 'void (*)(void)' [-Wincompatible-pointer-types]
+  211 |  MainMenu[0] = (MenuItem){MENU_TYPE_ACTION, L"Сведения", Information, NULL, NULL, 6, &Info, 0, NULL};
+      |                                                          ^~~~~~~~~~~
+../user/ssd1306_menu.c:211:66: note: (near initialization for '(anonymous).action')
+../user/ssd1306_menu.c:212:67: warning: initialization of 'void (*)(uint8_t)' {aka 'void (*)(unsigned char)'} from incompatible pointer type 'void (*)()' [-Wincompatible-pointer-types]
+  212 |  MainMenu[1] = (MenuItem){MENU_TYPE_ACTION, L"Режим сна", Screen_off, NULL, NULL, 6, &Power, 0};
+      |                                                           ^~~~~~~~~~
+../user/ssd1306_menu.c:212:67: note: (near initialization for '(anonymous).action')
+Finished building: ../user/ssd1306_menu.c
+ 
+Building file: ../firmware/at32f403a_407_acc.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_acc.d" -MT"firmware/at32f403a_407_acc.o" -c -o "firmware/at32f403a_407_acc.o" "../firmware/at32f403a_407_acc.c"
+Finished building: ../firmware/at32f403a_407_acc.c
+ 
+Building file: ../firmware/at32f403a_407_adc.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_adc.d" -MT"firmware/at32f403a_407_adc.o" -c -o "firmware/at32f403a_407_adc.o" "../firmware/at32f403a_407_adc.c"
+Finished building: ../firmware/at32f403a_407_adc.c
+ 
+Building file: ../firmware/at32f403a_407_bpr.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_bpr.d" -MT"firmware/at32f403a_407_bpr.o" -c -o "firmware/at32f403a_407_bpr.o" "../firmware/at32f403a_407_bpr.c"
+Finished building: ../firmware/at32f403a_407_bpr.c
+ 
+Building file: ../firmware/at32f403a_407_can.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_can.d" -MT"firmware/at32f403a_407_can.o" -c -o "firmware/at32f403a_407_can.o" "../firmware/at32f403a_407_can.c"
+Finished building: ../firmware/at32f403a_407_can.c
+ 
+Building file: ../firmware/at32f403a_407_crc.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_crc.d" -MT"firmware/at32f403a_407_crc.o" -c -o "firmware/at32f403a_407_crc.o" "../firmware/at32f403a_407_crc.c"
+Finished building: ../firmware/at32f403a_407_crc.c
+ 
+Building file: ../firmware/at32f403a_407_crm.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_crm.d" -MT"firmware/at32f403a_407_crm.o" -c -o "firmware/at32f403a_407_crm.o" "../firmware/at32f403a_407_crm.c"
+Finished building: ../firmware/at32f403a_407_crm.c
+ 
+Building file: ../firmware/at32f403a_407_dac.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_dac.d" -MT"firmware/at32f403a_407_dac.o" -c -o "firmware/at32f403a_407_dac.o" "../firmware/at32f403a_407_dac.c"
+Finished building: ../firmware/at32f403a_407_dac.c
+ 
+Building file: ../firmware/at32f403a_407_debug.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_debug.d" -MT"firmware/at32f403a_407_debug.o" -c -o "firmware/at32f403a_407_debug.o" "../firmware/at32f403a_407_debug.c"
+Finished building: ../firmware/at32f403a_407_debug.c
+ 
+Building file: ../firmware/at32f403a_407_dma.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_dma.d" -MT"firmware/at32f403a_407_dma.o" -c -o "firmware/at32f403a_407_dma.o" "../firmware/at32f403a_407_dma.c"
+Finished building: ../firmware/at32f403a_407_dma.c
+ 
+Building file: ../firmware/at32f403a_407_emac.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_emac.d" -MT"firmware/at32f403a_407_emac.o" -c -o "firmware/at32f403a_407_emac.o" "../firmware/at32f403a_407_emac.c"
+Finished building: ../firmware/at32f403a_407_emac.c
+ 
+Building file: ../firmware/at32f403a_407_exint.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_exint.d" -MT"firmware/at32f403a_407_exint.o" -c -o "firmware/at32f403a_407_exint.o" "../firmware/at32f403a_407_exint.c"
+Finished building: ../firmware/at32f403a_407_exint.c
+ 
+Building file: ../firmware/at32f403a_407_flash.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_flash.d" -MT"firmware/at32f403a_407_flash.o" -c -o "firmware/at32f403a_407_flash.o" "../firmware/at32f403a_407_flash.c"
+Finished building: ../firmware/at32f403a_407_flash.c
+ 
+Building file: ../firmware/at32f403a_407_gpio.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_gpio.d" -MT"firmware/at32f403a_407_gpio.o" -c -o "firmware/at32f403a_407_gpio.o" "../firmware/at32f403a_407_gpio.c"
+Finished building: ../firmware/at32f403a_407_gpio.c
+ 
+Building file: ../firmware/at32f403a_407_i2c.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_i2c.d" -MT"firmware/at32f403a_407_i2c.o" -c -o "firmware/at32f403a_407_i2c.o" "../firmware/at32f403a_407_i2c.c"
+Finished building: ../firmware/at32f403a_407_i2c.c
+ 
+Building file: ../firmware/at32f403a_407_misc.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_misc.d" -MT"firmware/at32f403a_407_misc.o" -c -o "firmware/at32f403a_407_misc.o" "../firmware/at32f403a_407_misc.c"
+Finished building: ../firmware/at32f403a_407_misc.c
+ 
+Building file: ../firmware/at32f403a_407_pwc.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_pwc.d" -MT"firmware/at32f403a_407_pwc.o" -c -o "firmware/at32f403a_407_pwc.o" "../firmware/at32f403a_407_pwc.c"
+Finished building: ../firmware/at32f403a_407_pwc.c
+ 
+Building file: ../firmware/at32f403a_407_rtc.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_rtc.d" -MT"firmware/at32f403a_407_rtc.o" -c -o "firmware/at32f403a_407_rtc.o" "../firmware/at32f403a_407_rtc.c"
+Finished building: ../firmware/at32f403a_407_rtc.c
+ 
+Building file: ../firmware/at32f403a_407_sdio.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_sdio.d" -MT"firmware/at32f403a_407_sdio.o" -c -o "firmware/at32f403a_407_sdio.o" "../firmware/at32f403a_407_sdio.c"
+Finished building: ../firmware/at32f403a_407_sdio.c
+ 
+Building file: ../firmware/at32f403a_407_spi.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_spi.d" -MT"firmware/at32f403a_407_spi.o" -c -o "firmware/at32f403a_407_spi.o" "../firmware/at32f403a_407_spi.c"
+Finished building: ../firmware/at32f403a_407_spi.c
+ 
+Building file: ../firmware/at32f403a_407_tmr.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_tmr.d" -MT"firmware/at32f403a_407_tmr.o" -c -o "firmware/at32f403a_407_tmr.o" "../firmware/at32f403a_407_tmr.c"
+Finished building: ../firmware/at32f403a_407_tmr.c
+ 
+Building file: ../firmware/at32f403a_407_usart.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_usart.d" -MT"firmware/at32f403a_407_usart.o" -c -o "firmware/at32f403a_407_usart.o" "../firmware/at32f403a_407_usart.c"
+Finished building: ../firmware/at32f403a_407_usart.c
+ 
+Building file: ../firmware/at32f403a_407_usb.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_usb.d" -MT"firmware/at32f403a_407_usb.o" -c -o "firmware/at32f403a_407_usb.o" "../firmware/at32f403a_407_usb.c"
+Finished building: ../firmware/at32f403a_407_usb.c
+ 
+Building file: ../firmware/at32f403a_407_wdt.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_wdt.d" -MT"firmware/at32f403a_407_wdt.o" -c -o "firmware/at32f403a_407_wdt.o" "../firmware/at32f403a_407_wdt.c"
+Finished building: ../firmware/at32f403a_407_wdt.c
+ 
+Building file: ../firmware/at32f403a_407_wwdt.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_wwdt.d" -MT"firmware/at32f403a_407_wwdt.o" -c -o "firmware/at32f403a_407_wwdt.o" "../firmware/at32f403a_407_wwdt.c"
+Finished building: ../firmware/at32f403a_407_wwdt.c
+ 
+Building file: ../firmware/at32f403a_407_xmc.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"firmware/at32f403a_407_xmc.d" -MT"firmware/at32f403a_407_xmc.o" -c -o "firmware/at32f403a_407_xmc.o" "../firmware/at32f403a_407_xmc.c"
+Finished building: ../firmware/at32f403a_407_xmc.c
+ 
+Building file: ../cmsis/system_at32f403a_407.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"cmsis/system_at32f403a_407.d" -MT"cmsis/system_at32f403a_407.o" -c -o "cmsis/system_at32f403a_407.o" "../cmsis/system_at32f403a_407.c"
+Finished building: ../cmsis/system_at32f403a_407.c
+ 
+Building file: ../bsp/at32f403a_407_board.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -DAT_START_F403A_V1 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"bsp/at32f403a_407_board.d" -MT"bsp/at32f403a_407_board.o" -c -o "bsp/at32f403a_407_board.o" "../bsp/at32f403a_407_board.c"
+Finished building: ../bsp/at32f403a_407_board.c
+ 
+Building target: locus-tester3.elf
+Invoking: GNU Arm Cross C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -ffunction-sections  -g -T "/home/user/Документы/AT32-projects/locus-tester3/ldscripts/AT32F403AxG_FLASH.ld" -Xlinker --gc-sections -Wl,-Map,"locus-tester3.map" --specs=nano.specs --specs=nosys.specs -o "locus-tester3.elf" ./user/hardware/spi/at32_video_ev_spi.o  ./user/hardware/lcd/at32_video_ev_font.o ./user/hardware/lcd/at32_video_ev_lcd.o  ./user/at32f403a_407_clock.o ./user/at32f403a_407_config.o ./user/at32f403a_407_int.o ./user/eeprom.o ./user/encoder_navigation.o ./user/images.o ./user/main.o ./user/menu_functions.o ./user/ssd1306_menu.o  ./firmware/at32f403a_407_acc.o ./firmware/at32f403a_407_adc.o ./firmware/at32f403a_407_bpr.o ./firmware/at32f403a_407_can.o ./firmware/at32f403a_407_crc.o ./firmware/at32f403a_407_crm.o ./firmware/at32f403a_407_dac.o ./firmware/at32f403a_407_debug.o ./firmware/at32f403a_407_dma.o ./firmware/at32f403a_407_emac.o ./firmware/at32f403a_407_exint.o ./firmware/at32f403a_407_flash.o ./firmware/at32f403a_407_gpio.o ./firmware/at32f403a_407_i2c.o ./firmware/at32f403a_407_misc.o ./firmware/at32f403a_407_pwc.o ./firmware/at32f403a_407_rtc.o ./firmware/at32f403a_407_sdio.o ./firmware/at32f403a_407_spi.o ./firmware/at32f403a_407_tmr.o ./firmware/at32f403a_407_usart.o ./firmware/at32f403a_407_usb.o ./firmware/at32f403a_407_wdt.o ./firmware/at32f403a_407_wwdt.o ./firmware/at32f403a_407_xmc.o  ./cmsis/startup_at32f403a_407.o ./cmsis/system_at32f403a_407.o  ./bsp/at32f403a_407_board.o   
+Finished building target: locus-tester3.elf
+ 
+Invoking: GNU Arm Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "locus-tester3.elf"  "locus-tester3.hex"
+Finished building: locus-tester3.hex
+ 
+Invoking: GNU Arm Cross Print Size
+arm-none-eabi-size --format=berkeley "locus-tester3.elf"
+   text	   data	    bss	    dec	    hex	filename
+  77772	   3084	  44284	 125140	  1e8d4	locus-tester3.elf
+Finished building: locus-tester3.siz
+ 
+18:06:12 **** Incremental Build of configuration Debug for project locus-tester3 ****
+make all 
+Invoking: GNU Arm Cross Print Size
+arm-none-eabi-size --format=berkeley "locus-tester3.elf"
+   text	   data	    bss	    dec	    hex	filename
+  77772	   3084	  44284	 125140	  1e8d4	locus-tester3.elf
+Finished building: locus-tester3.siz
+ 
+18:09:08 **** Incremental Build of configuration Debug for project locus-tester3 ****
+make all 
+Invoking: GNU Arm Cross Print Size
+arm-none-eabi-size --format=berkeley "locus-tester3.elf"
+   text	   data	    bss	    dec	    hex	filename
+  77772	   3084	  44284	 125140	  1e8d4	locus-tester3.elf
+Finished building: locus-tester3.siz
+ 
