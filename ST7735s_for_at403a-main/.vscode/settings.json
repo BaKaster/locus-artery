@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "uart.h": "c",
+        "uart_control.h": "c",
+        "stdio.h": "c",
+        "string.h": "c",
+        "memory": "c",
+        "random": "c"
+    }
+}
